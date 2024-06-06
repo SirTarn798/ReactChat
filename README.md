@@ -10,3 +10,5 @@ What I think could be improved are
   3) Performance : I sense that the app is quite slow so it would be hugely upgrade if I can fix it
 
 Overall this project taught me so much about React and how to communicate between platforms as well as how to implement Firebase to your application.
+![Opera Snapshot_2024-06-06_153251_localhost](https://github.com/SirTarn798/ReactChat/assets/126150416/2a072e9a-3f5c-433b-b744-9a13ac7d29b3)
+![Opera Snapshot_2024-06-06_153304_localhost](https://github.com/SirTarn798/ReactChat/assets/126150416/8f47490b-e714-4d31-b255-4696d851f32a)
