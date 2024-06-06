@@ -1,0 +1,131 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  border-color: rgba(124, 123, 123, 0.623);
+}
+
+.topTab {
+  display: flex;
+  padding: 20px;
+  border-bottom: 1px solid;
+  border-color: rgba(124, 123, 123, 0.623);
+  align-items: center;
+}
+
+.chatUserDetail {
+  display: flex;
+  gap: 15px;
+  flex: 1;
+  img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.userDetailText {
+  display: flex;
+  flex-direction: column;
+
+  .userStatus {
+    color: rgba(168, 168, 168, 0.945);
+    font-size: 10px;
+  }
+
+  .name {
+    color: white;
+  }
+}
+
+.periperipheralButtonTab {
+  display: flex;
+  gap: 20px;
+}
+
+.peripheralButton {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.chatSection {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.sendMsgSection {
+  display: flex;
+  padding: 20px;
+  border-top: 1px solid;
+  border-color: rgba(124, 123, 123, 0.623);
+  align-items: center;
+  gap: 20px;
+
+  label {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(214, 213, 213, 0.87);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(230, 225, 225, 0.781);
+  border-radius: 10px;
+}
+
+input {
+  flex: 1;
+  background-color: rgba(27, 27, 27, 0.384);
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  color: white;
+}
+
+.sendMsgButton {
+  color: white;
+  background-color: rgba(53, 160, 231, 0.774);
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+
+  &:blocked {
+    cursor: not-allowed;
+  }
+
+}
+
+form {
+  display: flex;
+  flex: 1;
+  gap: 10px;
+  align-items: center;
+}
+.emoji {
+  position: relative;
+
+  .picker {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+  }
+}

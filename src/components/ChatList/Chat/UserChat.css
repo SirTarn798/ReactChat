@@ -1,0 +1,38 @@
+.userChat {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  cursor: pointer;
+  gap: 20px;
+}
+
+.userChat:hover {
+  background-color: rgba(177, 177, 177, 0.425);
+}
+
+.chatDetail {
+  display: flex;
+  flex-direction: column;
+  flex:1;
+  
+  .name {
+    color: white;
+    font-size: 15px;
+  }
+
+  .lastMsg {
+    color: rgba(17, 17, 17, 0.945);
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+img {
+  width: 35px;
+  height: 35px;
+}
+

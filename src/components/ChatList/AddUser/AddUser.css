@@ -1,0 +1,56 @@
+.addUser {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    position: absolute;
+    background-color: rgba(31, 30, 30, 0.993);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 500px;
+    height: 200px;
+    border: 1px solid;
+    border-color: rgba(238, 240, 241, 0.219);
+    border-radius: 10px;
+
+    form {
+        display: flex;
+    }
+
+    .foundUser {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        p {
+            color: white;
+            flex: 1;
+        }
+
+        img {
+            border-radius: 50%;
+            height: 45px;
+            width: 45px;
+        }
+    }
+
+    input {
+        background-color: aliceblue;
+        color: black;
+    }
+}
+
+button {
+    border: none;
+    width: 80px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(187, 187, 190, 0.685);
+}
+
+

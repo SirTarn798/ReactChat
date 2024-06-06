@@ -1,0 +1,46 @@
+.myMsg {
+  background-color: rgba(53, 160, 231, 0.774);
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  max-width: 300px;
+  align-self: flex-end;
+  border-radius: 5px;
+}
+
+.othersMsg {
+  background-color: rgba(82, 79, 79, 0.815);
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  max-width: 300px;
+  align-self: flex-start;
+  border-radius: 5px;
+}
+
+.imageMessage {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.myImage {
+  background-color: transparent;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  max-width: 300px;
+  align-self: flex-end;
+  border-radius: 5px;
+}
+
+.othersImage {
+  background-color: transparent;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  max-width: 300px;
+  align-self: flex-start;
+  border-radius: 5px;
+}
+
