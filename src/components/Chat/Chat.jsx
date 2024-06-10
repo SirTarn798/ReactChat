@@ -38,7 +38,6 @@ function Chat() {
   const [text, setText] = useState("");
   const endRef = useRef(null);
   useEffect(() => {
-    console.log(chat)
     endRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [chat]);
 
@@ -100,7 +99,6 @@ function Chat() {
 
       let imgUrl = null;
       try {
-        console.log("Uploading...");
         imgUrl = await upload(selectedFile);
         await updateDoc(doc(db, "chats", chatId), {
           messages: arrayUnion({
@@ -137,7 +135,6 @@ function Chat() {
         </div>
       </div>
       <div className="chatSection">
-        {console.log(chat?.messages)}
         {chat?.messages.map((message) => (
           <Message
             image={message.image}
